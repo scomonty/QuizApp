@@ -1,0 +1,120 @@
+
+
+
+/*colors*/
+
+body {
+	background: #000;
+	background-image: url("solarsystem1.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+
+}
+
+header {
+	color: #fffefe;
+}
+
+.start, .question, .begin {
+	color: #fffff;
+	background: transparent;
+}
+	
+
+/*fonts*/
+
+header, .start, .question, .begin{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+header {
+	font-size: 4.375em;
+}
+
+.start {font-size: 2.8125em;
+color: white; }
+
+
+
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	margin-top: -1%;
+	text-align: center;
+}
+
+.start, .question, .begin{
+border: transparent;
+text-align: center;
+padding: 5px;}
+
+.start{
+margin-top: 20%;
+text-align: center;}
+
+.question {
+font-size: 1.875em;
+height: 280px;
+max-width: 9em;
+margin-right: auto;
+margin-left: auto;
+color: white;
+background-color: black;
+opacity: 0.8;
+border-radius: 4px;
+border: 1px solid white;
+display: table-cell;
+vertical-align: middle;
+}
+
+.container{text-align: center;
+margin-right: auto;
+margin-left: auto;
+width: 25%;}
+
+.choice {
+	font-family: 'Roboto', sans-serif;
+border: 1px solid white;
+border-radius: 4px;
+font-size: 1.25em;
+width: 42%;
+height: -1%;
+color: white;
+background-color: black;
+opacity: 0.8;}
+
+.hover{border: tranparent;
+color: black;
+background-color: white;
+opacity: 0.8;}
+
+/***************pointers*****************/
+
+.over, .hover{cursor: pointer;}
+
+.next{
+width: 200px;
+height: 20px;
+border-radius: 4px;
+color: black;
+background-color: white;
+opacity: 0.8;
+border: 1px solid black;
+font-size: 1.125em;
+padding-bottom: 22px;}
+
+
+.correct{color: green;}
+
+.incorrect{color: red;}
+
+.complete p{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-size: 3.125em;
+color: white;
+max-width: 85%;}
